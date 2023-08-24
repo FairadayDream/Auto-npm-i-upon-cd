@@ -1,6 +1,5 @@
 # Auto-npm-i-upon-cd
-automate npm i (install) and npm t (test) whenever you cd into a new directory! (MAC)
-
+automate npm i (install) and npm t (test) whenever you cd into a new directory!
 NOTES: 
 This is a script to automate the installation of npm dependencies whenever the user changes the working directory (cd) to a folder containing a package.json file.
 
