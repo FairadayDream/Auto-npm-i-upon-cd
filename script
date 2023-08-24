@@ -9,3 +9,15 @@ function cd {
         fi
     fi
 }
+
+
+WITHOUT NPM TEST AND JUST NPM I : 
+
+function cd {
+    builtin cd "$@"
+    if [[ -f "package.json" ]]; then
+        echo "Running npm install..."
+        npm install
+    fi
+}
+
