@@ -21,19 +21,10 @@ Additional Information:
 OR
 ` nano ~/.zshrc` (mac)
 
-2. Insert:
-`function cd {
-    builtin cd "$@"
-    if [[ -f "package.json" ]]; then
-        echo "Running npm install..."
-        npm install
-        if [[ $? -eq 0 ]]; then
-            echo "Running npm test..."
-            npm t
-        fi
-    fi
-}`
+2. Insert: the script provided in the script file on github
 
 3. then on keyboard press ` ^ x ` and then press `Y` and  `enter`
 
-4. then `source ~/.zshrc` to reset the terminal to accept yourr changes
+4. source `~/.bashrc` then `source ~/.zshrc` to reset the terminal to accept your changes
+
+
