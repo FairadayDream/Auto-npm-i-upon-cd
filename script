@@ -23,3 +23,23 @@ function cd {
     fi
 }
 
+WITH .gitignore file created . (dont need to delete the node modules)
+
+function cd {
+    builtin cd "$@"
+    if [[ -f "package.json" ]]; then
+        echo "Running npm install..."
+        npm install
+        if [[ $? -eq 0 ]]; then
+            echo "Running npm test..."
+            npm test
+        fi
+        
+        if [[ ! -f ".gitignore" ]]; then
+            echo "Creating .gitignore file..."
+            echo "node_modules/" > .gitignore
+            echo "# Add other ignore rules here" >> .gitignore
+        fi
+    fi
+}
+
