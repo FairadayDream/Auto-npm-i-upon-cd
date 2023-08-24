@@ -10,8 +10,8 @@ Desired Script Features:
 - If a package.json file is found, it should run npm install to install the dependencies.
 
 Additional Information:
-- the user is using zsh as my default shell.
-- The user wants to add this automation as a custom function to their ~/.zshrc file.
+-  user is using zsh as default shell.
+-  user wants to add this automation as a custom function to ~/.zshrc file.
 
 
 *  STEPS  *
