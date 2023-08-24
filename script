@@ -1,0 +1,11 @@
+function cd {
+    builtin cd "$@"
+    if [[ -f "package.json" ]]; then
+        echo "Running npm install..."
+        npm install
+        if [[ $? -eq 0 ]]; then
+            echo "Running npm test..."
+            npm t
+        fi
+    fi
+}
