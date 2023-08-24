@@ -1,4 +1,4 @@
-With npm install and npm test:
+// With npm install and npm test:
 
 function cd {
     builtin cd "$@"
@@ -13,7 +13,7 @@ function cd {
 }
 
 
-WITHOUT npm test (ONLY npm install): 
+// WITHOUT npm test (ONLY npm install): 
 
 function cd {
     builtin cd "$@"
@@ -23,7 +23,7 @@ function cd {
     fi
 }
 
-WITH .gitignore file created . (dont need to delete the node modules)
+// WITH .gitignore file created . (dont need to delete the node modules)
 
 function cd {
     builtin cd "$@"
