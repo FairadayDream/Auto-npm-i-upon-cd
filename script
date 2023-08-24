@@ -1,3 +1,5 @@
+With npm install and npm test:
+
 function cd {
     builtin cd "$@"
     if [[ -f "package.json" ]]; then
@@ -11,7 +13,7 @@ function cd {
 }
 
 
-WITHOUT NPM TEST AND JUST NPM I : 
+WITHOUT npm test (ONLY npm install): 
 
 function cd {
     builtin cd "$@"
