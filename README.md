@@ -17,9 +17,9 @@ Additional Information:
 *  STEPS  *
 
 1. Open terminal and type either (I used zshrc):
-` nano ~/.bashrc`
+` nano ~/.bashrc` (for windows its bash)
 OR
-` nano ~/.zshrc`
+` nano ~/.zshrc` (mac)
 
 2. Insert:
 `function cd {
