@@ -25,7 +25,7 @@ function cd {
     fi
 }
 
-//c. WITH .gitignore file created . (dont need to delete the node modules)
+//c. WITH .gitignore file created . (so you dont need to delete the node modules)
 
 function cd {
     builtin cd "$@"
