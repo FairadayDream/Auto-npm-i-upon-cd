@@ -25,6 +25,6 @@ OR
 
 3. then on keyboard press ` ^ x ` and then press `Y` and  `enter`
 
-4. source `~/.bashrc` then `source ~/.zshrc` to reset the terminal to accept your changes
+4. source `~/.bashrc` OR `source ~/.zshrc` to reset the terminal to accept your changes
 
 
