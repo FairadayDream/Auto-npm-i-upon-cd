@@ -21,7 +21,7 @@ Additional Information:
 OR
 ` nano ~/.zshrc` (mac)
 
-2. Insert: the script provided in the script file on github
+2. Insert: the script provided in the script file in this repo
 
 3. then on keyboard press ` ^ x ` and then press `Y` and  `enter`
 
