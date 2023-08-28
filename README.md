@@ -5,7 +5,7 @@ NOTES:
 This is a script to automate the installation of npm dependencies whenever the user changes the working directory (cd) to a folder containing a package.json file.
 
 Script Features:
-- The script should be triggered automatically whenever a user changes directories in the terminal.
+- The script should be triggered automatically whenever a user changes directories in a terminal.
 - It should check if the new directory contains a package.json file.
 - If a package.json file is found, it should run npm install to install the dependencies.
 
