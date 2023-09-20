@@ -23,7 +23,7 @@ OR
 
 2. Insert: the script provided in the script file in this repo
 
-3. then on keyboard press ` ^ x ` and then press `Y` and  `enter`
+3. then on keyboard press ` crtl + x ` and then press `Y` and  `enter`
 
 4. source `~/.bashrc` OR `source ~/.zshrc` to reset the terminal to accept your changes
 
