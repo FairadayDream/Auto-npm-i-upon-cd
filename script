@@ -45,7 +45,7 @@ function cd {
     fi
 }
 
-
+D.) more in gitignore
 
 function cd {
     builtin cd "$@"
